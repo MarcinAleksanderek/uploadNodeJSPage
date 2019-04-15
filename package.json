@@ -1,0 +1,32 @@
+{
+  "name": "nauka_npm",
+  "version": "1.0.0",
+  "description": "Testowy plik package.json do nauki npm'a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "nauka",
+    "npm",
+    "node"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "formidable": "^1.2.1",
+    "nodemon": "^1.18.11",
+    "stat-mode": "^0.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinAleksanderek/uploadNodeJSPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcinAleksanderek/uploadNodeJSPage/issues"
+  },
+  "homepage": "https://github.com/MarcinAleksanderek/uploadNodeJSPage#readme"
+}
